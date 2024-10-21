@@ -29,17 +29,20 @@ FROM orders
 GROUP BY customer_id
 ORDER BY num_purchases DESC
 LIMIT 1;
-'''
-```sql
+```
+
 ## 2. Top 5 Products by Total Sales (Quantity): Listed the top 5 products by the total quantity sold.
+
+```sql
 SELECT product_id, SUM(quantity) AS total_quantity_sold
 FROM order_items
 GROUP BY product_id
 ORDER BY total_quantity_sold DESC
 LIMIT 5;
-
+```sql
 
 ## 3. Total Revenue Generated: Calculated the total revenue from all orders.
+
 SELECT SUM(price * quantity) AS total_revenue
 FROM products;
 
