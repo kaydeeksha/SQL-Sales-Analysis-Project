@@ -20,7 +20,7 @@ SELECT * FROM payments;
 
 # Key Queries and Insights
 
-
+## 1. Customer with the Most Purchases: Identified the customer with the highest number of purchases.
 SELECT customer_id, COUNT(*) AS num_purchases
 FROM orders
 GROUP BY customer_id
