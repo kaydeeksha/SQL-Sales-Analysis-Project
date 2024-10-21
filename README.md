@@ -21,14 +21,13 @@ SELECT * FROM payments;
 # Key Queries and Insights
 
 ## 1. Customer with the Most Purchases: Identified the customer with the highest number of purchases.
-'''SELECT customer_id, COUNT(*) AS num_purchases
+'''
+SELECT customer_id, COUNT(*) AS num_purchases
 FROM orders
 GROUP BY customer_id
 ORDER BY num_purchases DESC
-LIMIT 1;'''
-
-
-
+LIMIT 1;
+'''
 
 ## 2. Top 5 Products by Total Sales (Quantity): Listed the top 5 products by the total quantity sold.
 SELECT product_id, SUM(quantity) AS total_quantity_sold
