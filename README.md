@@ -1,6 +1,6 @@
 # SQL-Sales-Analysis-Project
 
-# Problem Statement
+## Problem Statement
 - Identify the customer with the highest number of purchases.
 - List the top 5 products by total quantity sold.
 - Calculate total revenue generated from all orders.
@@ -11,7 +11,7 @@
 - Track orders placed in the last 7 days.
 - Find the product with the highest average order quantity.
 
-# Database Schema Overview
+## Database Schema Overview
 ```sql
 SELECT * FROM customers;
 SELECT * FROM products;
@@ -20,7 +20,7 @@ SELECT * FROM order_items;
 SELECT * FROM payments;
 ```
 
-# Key Queries and Insights
+## Key Queries and Insights
 
 
 ### 1. Customer with the Most Purchases: Identified the customer with the highest number of purchases.
