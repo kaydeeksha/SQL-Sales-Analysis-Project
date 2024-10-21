@@ -125,7 +125,6 @@ FROM (
 ) ranked_products
 WHERE rank_ = 1;
 
-
 ## Techniques Used
 - **SQL Aggregation Functions**: Utilized `SUM()`, `COUNT()`, and `AVG()` to summarize data effectively.
 - **Joins**: Combined data from multiple tables using `JOIN` operations to create comprehensive reports.
